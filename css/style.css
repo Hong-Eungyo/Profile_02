@@ -1,16 +1,19 @@
 /* Global */
 :root {
     /* colors */
-    --color-white: #fff;
-    --color-black: #050a13;
-    --color-blue: #9BAFEE;
-    --color-orange: #E98432;
-    --color-gray: #1b1e26;
+    --color-white: #f1f1f1;
+    --color-black: #0D0D0D;
+    --color-green: #68F205;
+    --color-pink: #F25CA2;
+    --color-gray: #262626;
 
     /* app colors */
-    --color-accent: var(--color-blue);
-    --color-accent-variant: var(--color-orange);
-    --color-text: var(--color-black);
+    --color-primary: var(--color-black);
+    --color-primary-variant: var(--color-gray);
+
+    --color-accent: var(--color-green);
+    --color-accent-variant: var(--color-pink);
+    --color-text: var(--color-white);
 }
 
 * {box-sizing: border-box;}
@@ -20,6 +23,7 @@ body {
     font-size: 10pt;
     margin: 0;
     padding: 0;
+    color: var(--color-text);
 }
 
 h1, h2, h3, p, ul {
@@ -48,13 +52,87 @@ button:focus {
 
 /* header */
 .header {
-    width: 100%;
+    width: 15%;
+    min-width: 200px;
+    height: 100vh;
     position: fixed;
     left: 0;
     top: 0;
-    /* padding: 1rem; */
 
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background: var(--color-primary);
+    z-index: 9999;
 }
+
+    .header_logo {
+        width: 150px;
+        height: 150px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+        .header_logo > .img-test {
+            width: 80px;
+            height: 80px;
+            border-radius: 999px;
+            background: var(--color-white);
+        }
+
+        .header_logo_title {
+            margin-top: 10px;
+           
+        }
+
+        .header_logo_title > a {
+            font-size: 1.5rem;
+            color: var(--color-accent);
+        }
+
+    .header_nav {
+        width: 200px;
+        height: 300px;
+        text-align: center;
+    }
+    .header_menu {
+       display: grid;
+       grid-template-columns: 150px;
+       grid-template-rows: repeat(5, 50px);
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+    }
+
+        .header_menu_item {
+            width: 150px;
+            display: block;
+            padding: 10px 0;
+            font-size: 1.3rem;
+            border-bottom: 1px solid transparent;
+        }
+
+        .header_menu_item:hover {
+            border-bottom: 1px solid var(--color-accent);
+        }
+        .header_menu_item.active {
+            border-bottom: 2px solid var(--color-accent);
+        }
+.hamburger {
+    display: none;
+}
+
+.content-wrap {
+    width: 85%;
+    min-width: 1000px;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    
+   }
+
+   
