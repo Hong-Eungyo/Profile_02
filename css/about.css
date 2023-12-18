@@ -1,3 +1,4 @@
+/* About */
 .about_content_box {
     color: var(--color-primary);
     display: flex;
@@ -5,7 +6,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 3rem 2rem;
-    /* background: #ddd; */
 }
 .about_img {
     width: 200px;

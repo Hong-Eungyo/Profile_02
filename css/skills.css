@@ -1,0 +1,46 @@
+/* Skills */
+#skills {
+   background: var(--color-primary-variant);
+   color: var(--color-text);
+}
+
+.skills_content_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills_content {
+    margin-top: 1.5rem;
+    background: var(--color-primary);
+}
+
+
+.skill-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 2rem;
+
+}
+
+.bar-text {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+
+.bar-bg {
+    width: 800px;
+    height: 3px;
+    background: #aaa;
+}
+
+.bar-value {
+    background: var(--color-accent);
+    height: 3px;
+}
+
+.bar-value.design {
+    background: var(--color-accent-variant);
+}

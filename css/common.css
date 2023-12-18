@@ -4,6 +4,7 @@
 }
 
 .section_title {
+    display: inline-block;
     font-size: 3rem;
     margin: 1.3rem 0;
     border-bottom: 2px solid var(--color-accent);
