@@ -20,7 +20,7 @@
 .skill-bar {
     display: flex;
     flex-direction: column;
-    padding: 1.5em 2rem;
+    padding: 1.8em 2rem;
 
 }
 
@@ -33,7 +33,7 @@
 .bar-bg {
     width: 800px;
     height: 3px;
-    background: #aaa;
+    background: var(--color-text);
 }
 
 .bar-value {
