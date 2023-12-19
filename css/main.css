@@ -1,5 +1,5 @@
 #home {
-    padding: 10rem 8rem;
+    padding: 8rem 8rem;
     text-align: center;
     background-color: var(--color-primary-variant);
 }
@@ -57,4 +57,23 @@
             color: var(--color-text);
             transition: all 0.5s;
         }
+
+        .down-arrow {
+            transform: translateY(0);
+            animation-name: arrow_down;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction:  alternate;
+           }
+           
+           
+           @keyframes arrow_down {
+               from {
+                   transform: translateY(0);
+               } 
+               to {
+                   transform: translateY(50px);
+               }
+           }
+             
 

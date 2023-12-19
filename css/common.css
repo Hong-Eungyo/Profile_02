@@ -27,6 +27,3 @@ button {
     outline: 0;
 }
 
-button:active {
-    outline: 2px solid var(--color-accent);
-}
