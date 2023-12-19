@@ -12,6 +12,9 @@
         /* background: #666; */
        
     }
+    .home_content_box > .section_title {
+        font-size: 5em;
+    }
 
         .btn-box {
             width: 230px;

@@ -1,0 +1,53 @@
+/* fooer */
+#contact {
+    background: var(--color-primary-variant);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact_thanks {
+    font-size: 1.3rem;
+    font-family: 'Kalnia', serif;
+}
+
+.contact_bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.copyright {
+    text-align: left;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+    .contact-info > .call {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .contact-info > .mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .github_box {
+       position: relative;
+    }
+    .github {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transition: all 0.3s;
+    }
+
+    .github:hover {
+        color: var(--color-primary);
+        transition: all 0.3s;
+    }
