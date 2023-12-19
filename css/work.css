@@ -64,15 +64,13 @@
 
 .project {
     position: relative;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
 }
 
 .project_img {
-    width: 100%;
-    object-fit: cover;
+    height: 100%;
 }
-
 
 .project-text {
     position: absolute;
