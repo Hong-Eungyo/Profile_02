@@ -40,6 +40,7 @@
         border-radius: 10px 10px 0 0;
         background: var(--color-accent);
         opacity: 0;
+        transition: all 300ms;
     }
   
     .work_count {
@@ -124,4 +125,5 @@
 }
 .category-btn:hover  ~ .btn-bg {
  opacity: 1;
+ transition: all 300ms;
 }

@@ -18,10 +18,7 @@
     flex-direction: column;
     transition: all 0.5s;
 }
-.contact_info:hover {
-    color: var(--color-accent);
-    transition: all 0.5s;
-}
+
 
 .contact_submit > input[type="text"] {
     margin: 2px;

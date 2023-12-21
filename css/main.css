@@ -1,19 +1,18 @@
 #home {
-    padding: 8rem 8rem;
+    padding: 8rem;
     text-align: center;
     background-color: var(--color-primary-variant);
 }
     #home > .home_content_box {
-        width: 100%;
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: space-between;
-        /* background: #666; */
        
     }
     .home_content_box > .section_title {
         font-size: 5em;
+        white-space: nowrap;
     }
 
         .btn-box {
