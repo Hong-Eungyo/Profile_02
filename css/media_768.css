@@ -4,7 +4,8 @@
         padding: 2rem;
     }
     .section_title {
-        margin: 1rem 0;
+        margin: 1.5rem 0;
+        font-size: 2.5rem;
     }
 
     .hamburger {
@@ -65,4 +66,26 @@
         align-items: center;
         justify-content: center;
     }
+    /* about */
+    #about  .section_description {
+        font-size: 1rem;
+    }
+    .info-box {
+        width: 100%;
+        min-width: 500px;
+        padding: 0;
+    }
+
+    .info-list li {
+        font-size: 1rem;
+    }
+
+    /* work */
+    .project-all {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    
 }

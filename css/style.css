@@ -63,6 +63,12 @@ button {
     z-index: 9999;
 }
 
+.header.bgchange {
+    background: #0d0d0dc5;
+    
+}
+
+
     .header_logo {
         width: 150px;
         height: 150px;
