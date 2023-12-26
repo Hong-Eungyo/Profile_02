@@ -56,7 +56,7 @@
         opacity: 0;
     }
 
-    .category-btn.selected .work_count, .category-btn:hover .work_count {
+    .category-btn.category_selected .work_count, .category-btn:hover .work_count {
         opacity: 1;
     }
 
@@ -120,7 +120,7 @@
     transition: all 300ms;
 }
 
-.category-btn.selected ~ .btn-bg {
+.category-btn.category_selected ~ .btn-bg {
     opacity: 1;
 }
 .category-btn:hover  ~ .btn-bg {

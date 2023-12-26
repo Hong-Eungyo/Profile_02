@@ -36,7 +36,9 @@
     <link rel="stylesheet" href="css/media_768.css">
 
     <!-- javaScript -->
-    <script type="module" src="./js/main.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
+    <script type="module" src="js/topBtn.js" defer></script>
+    <script type="module" src="js/myWork.js" defer></script>
 </head>
 <body>
     <!-- header -->
@@ -195,30 +197,30 @@
                 <div class="work_content_box">
                     <ul class="category-all">
                         <li>
-                            <button class="category-btn selected">All <span class="work_count">8</span></button>
+                            <button class="category-btn category_selected" data-category="all">All <span class="work_count">8</span></button>
                             <div class="btn-bg">&nbsp;</div>
                         </li>
                         <li>
-                            <button class="category-btn">Front-end<span class="work_count">5</span></button>
+                            <button class="category-btn" data-category="front-end">Front-end<span class="work_count">4</span></button>
                             <div class="btn-bg">&nbsp;</div>
                         </li>
                         <li>
-                            <button class="category-btn">Design<span class="work_count">3</span></button>
+                            <button class="category-btn" data-category="design">Design<span class="work_count">4</span></button>
                             <div class="btn-bg">&nbsp;</div>
                         </li>
                     </ul>
                     <div class="category-line">&nbsp;</div>
                     <ul class="project-all">
-                        <li class="project">
+                        <li class="project" data-type="design">
                             <a href="#" target="_blank">
                                 <img class="project_img" src="img/project_01.png" alt="project_01 img" width="300">
                                 <div class="project-text">
-                                    <h3 class="project_title">Project 01</h3>
-                                    <span class="project_info">일러스트를 사용한 야채 캐릭터 제작</span>
+                                    <h3 class="project_title">야채 캐릭터</h3>
+                                    <span class="project_info">일러스트</span>
                                 </div>
                             </a>
                         </li>
-                        <li class="project">
+                        <li class="project" data-type="design">
                             <a href="#" target="_blank">
                                 <img class="project_img" src="img/project_01.png" alt="project_01 img" width="300">
                                 <div class="project-text">
@@ -227,7 +229,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="project">
+                        <li class="project" data-type="design"> 
                             <a href="#" target="_blank">
                                 <img class="project_img" src="img/project_01.png" alt="project_01 img" width="300">
                                 <div class="project-text">
@@ -236,7 +238,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="project">
+                        <li class="project" data-type="design">
                             <a href="#" target="_blank">
                                 <img class="project_img" src="img/project_01.png" alt="project_01 img" width="300">
                                 <div class="project-text">
@@ -245,7 +247,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="project">
+                        <li class="project" data-type="front-end">
                             <a href="#" target="_blank">
                                 <img class="project_img" src="img/project_01.png" alt="project_01 img" width="300">
                                 <div class="project-text">
@@ -254,7 +256,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="project">
+                        <li class="project" data-type="front-end">
                             <a href="#" target="_blank">
                                 <img class="project_img" src="img/project_01.png" alt="project_01 img" width="300">
                                 <div class="project-text">
@@ -263,14 +265,15 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="project"><a href="#" target="_blank">
+                        <li class="project" data-type="front-end">
+                            <a href="#" target="_blank">
                             <img class="project_img" src="img/project_01.png" alt="project_01 img" width="300">
                             <div class="project-text">
                                 <h3 class="project_title">Project 07</h3>
                                 <span class="project_info">My Work</span>
                             </div>
                         </a></li>
-                        <li class="project">
+                        <li class="project" data-type="front-end">
                             <a href="#" target="_blank">
                                 <img class="project_img" src="img/project_01.png" alt="project_01 img" width="300">
                                 <div class="project-text">

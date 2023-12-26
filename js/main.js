@@ -1,11 +1,13 @@
-/* const header = document.querySelector('.header'),
-      headerHeight = header.getBoundingClientRect().height;
+const navToggle = document.querySelector('.hamburger'),
+      navMenu = document.querySelector('.header_nav');
 
-// header 스크롤 할때 색상 변경
-document.addEventListener('scroll', () => {
-if (window.scrollY > headerHeight) {
-    header.classList.add('bgchange');
-} else {
-    header.classList.remove('bgchange');
-}
-}); */
+// nav btn(hamburger) toggle
+navToggle.addEventListener('click', ()=> {
+    navMenu.classList.toggle('open');
+})
+
+// header menu click event
+navMenu.addEventListener('click', ()=>{
+    navMenu.classList.remove('open');
+})
+

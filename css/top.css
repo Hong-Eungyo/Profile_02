@@ -15,4 +15,6 @@
     background: var(--color-primary);
     color: var(--color-accent-variant);
     z-index: 3;
+    opacity: 0;
+    transition: all 0.5s;
 }

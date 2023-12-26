@@ -25,10 +25,11 @@
         padding: 0 1rem;
     }
     .header_logo {
-        width: 300px;
+        width: 250px;
         height: 100%;
         flex-direction: row;
         justify-content: flex-start;
+        
     }
 
     .header-img {
@@ -45,10 +46,36 @@
         font-size: 1rem;
     }
     .header_nav {
-        display: none;
         width: 100%;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        display: none;
+    }
+   
+    .header_menu {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 50px);
+        justify-content: center;
+        align-items: center;
         background: var(--color-primary);
-        margin-top: 60px;
+    }
+    .header_nav.open {
+        display: block;
+    }
+    .header_menu_item {
+        width: 100%;
+    }
+    /* menu 밑 라인 애니메이션 */
+    .header_menu > li:hover .header_menu_item::after {
+        width: 20%;
+        opacity: 1;
+        transition: all 300ms;
+    }
+   .header_menu_item.active::after {
+       width: 20%;
+       opacity: 1;
     }
 
     .content-wrap {
@@ -59,7 +86,7 @@
     }
 
     #home {
-        padding: 2rem 0;
+        padding: 5rem 0;
     }
 
     .home_content_box {
@@ -81,11 +108,15 @@
     }
 
     /* work */
+    
     .project-all {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 1rem;
+    }
+    .category-btn.category_selected .work_count, .category-btn:hover .work_count {
+        opacity: 1;
     }
     
 }
