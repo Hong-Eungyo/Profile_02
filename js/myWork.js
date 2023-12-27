@@ -10,9 +10,6 @@ categories.forEach((category)=> {
             } else {
                 project.style.display = "none";
             }
-            if (filter == 'null') {
-                return;
-            }
         })
         const activeBtn = document.querySelector('.category_selected');
         activeBtn.classList.remove('category_selected');
