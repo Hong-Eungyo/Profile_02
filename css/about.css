@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 2rem;
+    padding: 1rem 2rem;
+    padding-bottom: 2rem;
 }
 .about_img {
     width: 200px;

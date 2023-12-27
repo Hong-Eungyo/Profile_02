@@ -1,8 +1,30 @@
 #home {
+    position: relative;
     padding: 8rem;
     text-align: center;
     background-color: var(--color-primary-variant);
 }
+/* 커스텀 배경  */
+.custom-shape-divider-bottom-1703647166 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1703647166 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 88px;
+}
+
+.custom-shape-divider-bottom-1703647166 .shape-fill {
+    fill: #FFFFFF;
+}
+
     #home > .home_content_box {
         display: flex;
         flex-flow: column;
@@ -75,4 +97,5 @@
                }
            }
              
+
 
