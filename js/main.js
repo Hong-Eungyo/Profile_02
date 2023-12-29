@@ -22,3 +22,4 @@ menus.forEach((menu)=> {
         e.target.classList.add('active');
     })
 })
+
