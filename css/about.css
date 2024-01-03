@@ -12,7 +12,8 @@
     width: 200px;
     height: 200px;
     border-radius: 999px;
-    background: var(--color-primary);
+    background: url(/img/img-cropped.png) no-repeat;
+    background-size: cover;
     margin: 0 auto;
 }
 

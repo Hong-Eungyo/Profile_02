@@ -37,6 +37,7 @@
         position: relative;
         left: 0;
         top: -28px;
+        padding: 0 2rem;
         border-radius: 10px 10px 0 0;
         background: var(--color-accent);
         opacity: 0;
