@@ -22,4 +22,4 @@ menus.forEach((menu)=> {
         e.target.classList.add('active');
     })
 })
-//스크롤 하면 메뉴 활성화 옮기기
+
