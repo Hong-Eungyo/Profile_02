@@ -16,7 +16,6 @@
 }
 .about_img > img {
     width: 200px;
-    object-fit: cover;
 }
 
 .about_content_box > .section_description {

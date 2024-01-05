@@ -87,7 +87,6 @@ button {
         }
         .header-img  > img {
             width: 80px;
-            object-fit: cover;
         }
 
         .header_logo_title {
