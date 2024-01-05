@@ -12,11 +12,12 @@
     width: 200px;
     height: 200px;
     border-radius: 999px;
-    background: url(/img/img-cropped.png) no-repeat;
-    background-size: cover;
     margin: 0 auto;
 }
-
+.about_img > img {
+    width: 200px;
+    object-fit: cover;
+}
 
 .about_content_box > .section_description {
     margin: 1.3rem 0;

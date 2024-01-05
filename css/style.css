@@ -83,8 +83,11 @@ button {
             width: 80px;
             height: 80px;
             border-radius: 999px;
-            background: url(/img/img-cropped.png) no-repeat;
-            background-size: cover;
+
+        }
+        .header-img  > img {
+            width: 80px;
+            object-fit: cover;
         }
 
         .header_logo_title {
