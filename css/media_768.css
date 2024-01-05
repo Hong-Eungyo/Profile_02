@@ -11,7 +11,6 @@
         font-size: 1rem;
         margin: 0;
         font-family: 'Noto Sans KR', sans-serif;
-        white-space: nowrap;
     }
 
     .hamburger {
@@ -129,8 +128,8 @@
         font-size: 1rem;
     }
     .info-box {
-        width: 100%;
-        min-width: 500px;
+        width: 80%;
+        min-width: 450px;
         padding: 0;
     }
 
