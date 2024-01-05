@@ -30,6 +30,10 @@
         justify-content: space-between;
         padding: 0 1rem;
     }
+
+    .header-img  > img {
+        width: 35px;
+    }
     /* 커스텀 배경 */
     .custom-shape-divider-bottom-1703647166 {
         position: absolute;
