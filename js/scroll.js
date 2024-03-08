@@ -2,7 +2,7 @@
 const homeCon = document.querySelector("#home").getBoundingClientRect().top + window.scrollY + 300;
 const aboutCon = document.querySelector("#about").getBoundingClientRect().top + window.scrollY + 300;
 const skillCon = document.querySelector("#skills").getBoundingClientRect().top + window.scrollY + 300;
-const workCon = document.querySelector("#work").getBoundingClientRect().top + window.scrollY;
+const workCon = document.querySelector("#work").getBoundingClientRect().top + window.scrollY + 300;
 const contactCon = document.querySelector("#contact").getBoundingClientRect().top + window.scrollY;
 const headerMenus = document.querySelectorAll('.header_menu_item');
 
